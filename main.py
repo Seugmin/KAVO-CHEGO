@@ -1,16 +1,19 @@
-# This is a sample Python script.
+class StrayKids:
+    Duration = "1,852 days"
+    people = "8"
+    HowManySongs = "193"
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+    def init(self):
+            self.name = "Stray Children"
+            self.year = "2018"
+            self.main_leader = "Bang Can"
 
+class Itzy:
+    Duration = "1,487 days"
+    people = "4"
+    HowManySongs = "56"
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def init(self):
+            self.name = "my favorite k-pop groups"
+            self.year = "1990"
+            self.main_character = "K-pop"
